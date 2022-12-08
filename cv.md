@@ -14,3 +14,29 @@
 - _HTML_
 - _CSS_
 - _C_
+
+## *Code Example*
+```
+#include <stdio.h>
+
+int main(void) { 
+
+  int t = 0; 
+  scanf("%d", &t);
+
+  if ( t > 60  ) {
+    printf("Fire situation\n");
+  } else {
+      printf("\n");
+    }
+  return 0;
+}
+```
+
+## *Work experience*
+- _Nothing yet..._
+
+## *Education*
+- _Institute of International Tourism_
+- _School21(SBER):_
+  + **C** (Qualifying intensive 26 days)
