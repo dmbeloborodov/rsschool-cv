@@ -40,3 +40,7 @@ int main(void) {
 - _Institute of International Tourism_
 - _School21(SBER):_
   + **C** (Qualifying intensive 26 days)
+
+## *Languages*
+- _**Russian**_ - native speaker. 
+- _**English level**_ - A1.  
