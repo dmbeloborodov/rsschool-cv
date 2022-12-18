@@ -14,7 +14,7 @@ body {
     min-width: 320px;
     margin: 0;
     padding: 0;
-    font-family: 'Gilroy-Light';
+    font-family: 'Gilroy-Light', 'Gilroy-ExtraBold';
     font-weight: 400;
     font-size: 17px;
     color: #535E88;

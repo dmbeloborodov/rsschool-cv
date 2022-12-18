@@ -1,11 +1,18 @@
 @font-face {
     font-family: 'Gilroy-Light';
-    src: url("../assets/fonts/Gilroy-Light.ttf");
     font-weight: 300;
+    src: local(Gilroy-Light),
+         url("../assets/fonts/Gilroy-Light.ttf"),
+         url("../assets/fonts/Gilroy-Light.woff") format("woff"),
+         url("../assets/fonts/Gilroy-Light.woff2") format("woff2");
 }
 
 @font-face {
     font-family: 'Gilroy-ExtraBold';
-    src: url("../assets/fonts/Gilroy-ExtraBold.ttf");
     font-weight: 800;
+    src: local(Gilroy-ExtraBold),
+         url("../assets/fonts/Gilroy-ExtraBold.ttf"),
+         url("../assets/fonts/Gilroy-ExtraBold.woff") format("woff"),
+         url("../assets/fonts/Gilroy-ExtraBold.woff2") format("woff2");
+
 }
