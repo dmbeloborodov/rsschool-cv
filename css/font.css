@@ -4,7 +4,7 @@
     src: local(Gilroy-Light),
          url("../assets/fonts/Gilroy-Light.ttf"),
          url("../assets/fonts/Gilroy-Light.woff") format("woff"),
-         url("../assets/fonts/Gilroy-Light.woff2") format("woff2")
+         url("../assets/fonts/Gilroy-Light.woff2") format("woff2");
 }
 
 @font-face {
