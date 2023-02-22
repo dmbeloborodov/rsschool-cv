@@ -2,17 +2,17 @@
     font-family: 'Gilroy-Light';
     font-weight: 300;
     src: local(Gilroy-Light),
-         url("../assets/fonts/Gilroy-Light.ttf"),
-         url("../assets/fonts/Gilroy-Light.woff") format("woff"),
-         url("../assets/fonts/Gilroy-Light.woff2") format("woff2");
+         url("../asset/fonts/Gilroy-Light.ttf"),
+         url("../asset/fonts/Gilroy-Light.woff") format("woff"),
+         url("../asset/fonts/Gilroy-Light.woff2") format("woff2");
 }
 
 @font-face {
     font-family: 'Gilroy-ExtraBold';
     font-weight: 800;
     src: local(Gilroy-ExtraBold),
-         url("../assets/fonts/Gilroy-ExtraBold.ttf"),
-         url("../assets/fonts/Gilroy-ExtraBold.woff") format("woff"),
-         url("../assets/fonts/Gilroy-ExtraBold.woff2") format("woff2");
+         url("../asset/fonts/Gilroy-ExtraBold.ttf"),
+         url("../asset/fonts/Gilroy-ExtraBold.woff") format("woff"),
+         url("../asset/fonts/Gilroy-ExtraBold.woff2") format("woff2");
 
 }
