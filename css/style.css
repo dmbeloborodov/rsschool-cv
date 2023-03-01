@@ -36,6 +36,10 @@ p {
 
 /* header stars */
 
+.no-scroll {
+    overflow: hidden;
+}
+
 .contaner {
     max-width: 1440px;
     min-height: 71px;
@@ -69,6 +73,94 @@ p {
     color: #8428F8;
 }
 
+
+.nav-button {
+    position: relative;
+    z-index: 9;
+    display: none;
+    height: 25px;
+    border: none;
+    padding: 0;
+    background: none;
+    cursor: pointer;
+}
+
+.nav-button-icon {
+    position: relative;
+    display: block;
+    width: 42px;
+    height: 4px;
+    padding: 0;
+    background-color: #000000;
+    border: none;
+}
+
+.nav-button-icon::before {
+    position: absolute;
+    left: 0;
+    top: -10px;
+    content: "";
+    width: 42px;
+    height: 4px;
+    padding: 0;
+    background-color: #000000;
+}
+
+.nav-button-icon::after {
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    content: "";
+    width: 42px;
+    height: 4px;
+    padding: 0;
+    background-color: #000000;
+}
+
+.nav-button-close .nav-button-icon {
+    background-color: transparent;
+}
+
+.nav-button-close .nav-button-icon::before {
+    transition: all 0.2s ease-in;
+    transform:rotate(45deg);
+    top: 0;
+}
+
+.nav-button-close .nav-button-icon::after {
+    transition: all 0.2s ease-in;
+    transform:rotate(-45deg);
+    top: 0;
+}
+
+.mobile-nav {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 260px;
+    height: 100%;
+    padding: 70px 60px 30px 15px;
+    background-color: rgb(255, 255, 255);
+
+}
+
+.mobile-nav .nav {
+    display: block;
+    
+}
+
+.mobile-nav .nav ul {
+    flex-direction: column;
+    align-items: normal;
+    padding: 0;
+    margin: 0;
+} 
+
+.mobile-nav .nav ul li {
+    margin-bottom: 25px;
+}
+
 /* header end */
 
 /* main start */
@@ -99,6 +191,7 @@ p {
 
 .section-title {
     position: relative;
+    z-index: -1;
     font-family: 'Gilroy-ExtraBold';
     font-weight: 400;
     font-size: 48px;
@@ -121,7 +214,7 @@ p {
 }
 
 .section-title.line{
-    position: relative;
+    position: absolute;
     margin-bottom: 50px;
     font-size: 26px;
     line-height: 32px;
@@ -207,6 +300,7 @@ p {
 .section-title-one {
 
     position: relative;
+    z-index: -1;
     text-align: center;
     margin-bottom: 50px;
     text-transform: uppercase;
@@ -334,7 +428,7 @@ p {
 }
 
 .github {
-    width: 45px;
+    width: 121px;
     height: 45px;
     margin: 0;
     background-image: url(../asset/img/png/github-one.png);
@@ -392,6 +486,13 @@ p {
         margin-top: 45px;
     }
 
+    .contaner {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        margin-right: 15px;
+    }
+
     .line-title::after {
         content: "";
         position: absolute;
@@ -410,5 +511,17 @@ p {
         align-content: space-between;
         align-items: center;
         margin-top: 80px;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .nav-button {
+        display: block;
+    }
+
+    .mobile-nav-active {
+        display: block;
     }
   }
