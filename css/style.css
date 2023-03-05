@@ -354,13 +354,18 @@ p {
     margin-right: 230px;
 }
 
-.gif-sad {
-    width: 45px;
+/* Section Experience srtart*/
+
+.xp-link {
+    color: #535E88;
+    text-decoration: none;
 }
 
-.exp-title {
-    margin: 0;
+.xp-link:hover {
+    transition: .1s ease;
+    color: #8428F8;
 }
+/* Section Experience end */
 
 /* Section Education  */
 
